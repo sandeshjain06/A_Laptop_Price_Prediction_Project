@@ -1,0 +1,4 @@
+numpy==1.22.2
+streamlit==1.7.0
+sklearn
+click==8
