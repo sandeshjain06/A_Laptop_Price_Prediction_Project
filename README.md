@@ -11,10 +11,21 @@ Screenshot of the website
 
 ![image](https://user-images.githubusercontent.com/91243691/164948028-f1595989-0b17-4eac-8750-3e13c1bfa29b.png)
 
+![image](https://user-images.githubusercontent.com/91243691/164949093-53f09d98-9afb-4387-bbdd-e2b2fdc54400.png)
 
-First Step - 
 
-- Dataset consists of (1303, 11)
+Step 1 :
+
+- Dataset consists of (1303, 11) .
+
+- Features are ['Company', 'TypeName', 'Inches', 'ScreenResolution', 'Cpu', 'Ram','Memory', 'Gpu', 'OpSys', 'Weight', 'Price']
+
+- All features are required to predict the laptop prices.
+
+- In the output we want all the features , thus we have to perform EDA and check the null values , duplicated values and datatypes of all features.
+
+
+
 
 
 
