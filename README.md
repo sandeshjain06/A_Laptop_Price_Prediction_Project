@@ -1,6 +1,6 @@
 # Laptop_Price_Prediction_Project
 
-Objective - Customer can check the laptop price by entering all the laptop specification , the model can predict price for different laptops with different specifications.
+Objective - Customer can check the laptop price by entering the laptop specification , the model can predict price for different laptops with different specifications.
 
 Click here to check the dataset - https://github.com/sandeshjain06/Laptop_price_predict_project/blob/main/laptop_data.csv
 
