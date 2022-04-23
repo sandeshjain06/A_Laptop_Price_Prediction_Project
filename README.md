@@ -12,7 +12,10 @@ Screenshot of the website
 ![image](https://user-images.githubusercontent.com/91243691/164948028-f1595989-0b17-4eac-8750-3e13c1bfa29b.png)
 
 
-Dataset - 
+First Step - 
+
+- Dataset consists of (1303, 11)
+
 
 
 
