@@ -28,9 +28,43 @@ Step 1 :
 
 - In Screen ScreenResolution , we have multiple options such as whether laptop has touchscreen , IPS Panel , X-resolution and Y_resolution, so separate the values into different features.
 
-- New features will be added such as touchscreen , IPS Panel , X_resolution , Y_resolution . 
+- New features will be added such as touchscreen , IPS Panel , X_resolution , Y_resolution from the ScreenResolution.                                                   
+-  PPI is the new features added , formula would be -  (X_res *2 + Y_res) * 1/2  / Inches
 
-- 
+- PPI (pixel per Inch)  - df['ppi']= (((df['X_res']**2) + (df['Y_res']**2)) ** 0.5 / df['Inches']).astype('float')
+
+- From CPU features , take only the required details such as whether the CPU is i5,i3 or i7 processor , so apply split on the features.
+
+![image](https://user-images.githubusercontent.com/91243691/165017431-fd5fe511-91e3-4184-8e8e-c7e7db51d82e.png)
+
+- df['Cpu_name']=df['Cpu'].apply(lambda x : " ".join(x.split()[0:3]))
+
+
+
+
+
+
+- Ops features contains multiple values 
+
+![image](https://user-images.githubusercontent.com/91243691/165017607-d5974005-51a5-4392-a829-73a7cfc336f1.png)
+
+def fetch_OperatingSys(text):
+    if text == 'Windows 10' or text == 'Windows 7' or text == 'Windows 10 S' :
+        return 'Windows'
+    elif text == 'macOS' or text == 'Mac OS X':
+        return 'mac'
+    else:
+        return 'Others'
+        
+        
+- df['OpSys'] = df['OpSys'].apply(fetch_OperatingSys)  - Apply function to return only 3 values .
+
+
+- The Final df 
+
+![image](https://user-images.githubusercontent.com/91243691/165017735-6e8f0f7b-85ea-4d46-8c0a-796b61a2615d.png)
+
+
 
 
 
