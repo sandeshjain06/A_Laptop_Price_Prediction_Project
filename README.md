@@ -39,11 +39,6 @@ Step 1 :
 
 - df['Cpu_name']=df['Cpu'].apply(lambda x : " ".join(x.split()[0:3]))
 
-
-
-
-
-
 - Ops features contains multiple values 
 
 ![image](https://user-images.githubusercontent.com/91243691/165017607-d5974005-51a5-4392-a829-73a7cfc336f1.png)
@@ -64,6 +59,26 @@ def fetch_OperatingSys(text):
 
 ![image](https://user-images.githubusercontent.com/91243691/165017735-6e8f0f7b-85ea-4d46-8c0a-796b61a2615d.png)
 
+
+-   Apply train_test_split and apply different ML algorithms.
+
+Linear regression
+Lasso and Ridge regression
+KNN
+Decision Tree / Random Forests
+SVM
+Gradient boosting , adaboost , xgboost
+voting regressor , stacking , extratrees
+
+![image](https://user-images.githubusercontent.com/91243691/165019672-320c7687-bb04-4eb5-ab33-5bee53a7967d.png)
+
+- Create a website on pycharm using Streamlit
+
+
+![image](https://user-images.githubusercontent.com/91243691/165020522-d5bd4f25-0723-4ee6-92ad-48a2a9254832.png)
+
+
+![image](https://user-images.githubusercontent.com/91243691/165020555-cd325b82-ae5e-4077-83a3-ff5cdb007a79.png)
 
 
 
