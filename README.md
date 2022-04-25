@@ -24,6 +24,27 @@ Step 1 :
 
 - In the output we want all the features , thus we have to perform EDA and check the null values , duplicated values and datatypes of all features.
 
+- Convert the features (ram , weight) into integer datatype as it is in form of object datatype.
+
+- In Screen ScreenResolution , we have multiple options such as whether laptop has touchscreen , IPS Panel , X-resolution and Y_resolution, so separate the values into different features.
+
+- New features will be added such as touchscreen , IPS Panel , X_resolution , Y_resolution . 
+
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
