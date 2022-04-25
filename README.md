@@ -16,13 +16,20 @@ Screenshot of the website
 
 Step 1 :
 
-- Dataset consists of (1303, 11) .
+- Dataset consists of (1303, 11) 
 
 - Features are ['Company', 'TypeName', 'Inches', 'ScreenResolution', 'Cpu', 'Ram','Memory', 'Gpu', 'OpSys', 'Weight', 'Price']
+
+![image](https://user-images.githubusercontent.com/91243691/165020989-5063097d-bf08-4d5d-a125-42ac6d49130f.png)
+
 
 - All features are required to predict the laptop prices.
 
 - In the output we want all the features , thus we have to perform EDA and check the null values , duplicated values and datatypes of all features.
+
+![image](https://user-images.githubusercontent.com/91243691/165021027-9c5f6688-006e-4cfb-831c-d8059007dc53.png)
+
+- No null values are available.
 
 - Convert the features (ram , weight) into integer datatype as it is in form of object datatype.
 
@@ -75,11 +82,13 @@ voting regressor , stacking , extratrees
 - Create a website on pycharm using Streamlit
 
 
-![image](https://user-images.githubusercontent.com/91243691/165020522-d5bd4f25-0723-4ee6-92ad-48a2a9254832.png)
+![image](https://user-images.githubusercontent.com/91243691/165020899-31fb5849-9145-417a-8924-e33572f96dfd.png)
 
 
-![image](https://user-images.githubusercontent.com/91243691/165020555-cd325b82-ae5e-4077-83a3-ff5cdb007a79.png)
+![image](https://user-images.githubusercontent.com/91243691/165020918-74b7e3f0-9cd3-4f28-9f0d-e9a5ab5e2801.png)
 
+
+![image](https://user-images.githubusercontent.com/91243691/165020866-a21f6fb4-c912-461e-9017-bfac85a7c8ae.png)
 
 
 
